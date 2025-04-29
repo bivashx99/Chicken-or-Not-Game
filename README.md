@@ -19,13 +19,6 @@ A fun and entertaining HTML5 game where players must guess whether a zoomed-in i
 - Randomized levels for replayability
 - Chicken Master ranking system
 
-## Setup Instructions
-
-1. Clone or download this repository.
-2. Optional: Add your own sound effects to the sounds folder:
-   - correct.mp3 - A happy/correct sound effect
-   - wrong.mp3 - A funny/wrong sound effect
-3. Open index.html in your browser to play!
 
 ## Game Structure
 
@@ -33,7 +26,7 @@ A fun and entertaining HTML5 game where players must guess whether a zoomed-in i
 - `style.css` - All styling for the game
 - `script.js` - Game logic and functionality
 - `images/chicken_svgs.js` - SVG images for all chickens and non-chickens
-- `sounds/` - Contains sound effects (optional)
+- `sounds/` - Contains sound effects 
 
 ## How It Works
 
@@ -53,7 +46,7 @@ You can easily customize the game by:
 
 ## Credits
 
-Created as a fun HTML5 game about chickens.
+Created as a fun HTML5 game about chickens by Bivash Mallick.
 
 ## License
 
