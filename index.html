@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken or Not?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Chicken or Not?</h1>
+            <div class="score-container">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="level">Level: <span id="level">1</span>/10</div>
+            </div>
+        </div>
+        
+        <div id="game-screen">
+            <div id="start-screen" class="screen">
+                <h2>Can you tell what's a chicken?</h2>
+                <p>Look at the zoomed-in image and decide:</p>
+                <p>Is it a chicken... or not?</p>
+                <button id="start-button" class="btn">Start Game</button>
+            </div>
+            
+            <div id="play-screen" class="screen">
+                <div class="image-container" id="svg-container">
+                    <!-- SVG will be inserted here -->
+                </div>
+                <div class="buttons-container">
+                    <button id="chicken-button" class="choice-btn">Chicken</button>
+                    <button id="not-chicken-button" class="choice-btn">Not Chicken</button>
+                </div>
+            </div>
+            
+            <div id="result-screen" class="screen">
+                <h2 id="result-message"></h2>
+                <div class="result-image-container" id="full-image-container">
+                    <!-- SVG will be inserted here -->
+                </div>
+                <p id="description"></p>
+                <button id="next-button" class="btn">Next</button>
+            </div>
+            
+            <div id="end-screen" class="screen">
+                <h2>Game Over!</h2>
+                <p>Your final score: <span id="final-score">0</span></p>
+                <div id="rank-container">
+                    <h3>Your Chicken Master Rank:</h3>
+                    <div id="rank"></div>
+                </div>
+                <button id="play-again-button" class="btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audio elements - will fallback gracefully if files don't exist -->
+    <audio id="correct-sound" src="sounds/correct.mp3" preload="auto"></audio>
+    <audio id="wrong-sound" src="sounds/wrong.mp3" preload="auto"></audio>
+    
+    <footer class="game-footer">
+        <p>A fun game to test your chicken identification skills!</p>
+    </footer>
+    
+    <!-- Load SVG images first -->
+    <script src="images/chicken_svgs.js"></script>
+    <!-- Then load game logic -->
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,10 @@
+This is a placeholder for the wrong.mp3 sound file.
+
+Please replace this with an actual .mp3 sound file for the wrong answer sound effect.
+
+Recommended sound: A comical "wrong answer" sound or a disappointed chicken noise.
+
+You can find free sound effects at:
+- Freesound.org
+- Zapsplat.com
+- Mixkit.co 

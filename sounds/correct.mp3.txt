@@ -1,0 +1,10 @@
+This is a placeholder for the correct.mp3 sound file.
+
+Please replace this with an actual .mp3 sound file for the correct answer sound effect.
+
+Recommended sound: A cheerful chicken cluck or a victory jingle.
+
+You can find free sound effects at:
+- Freesound.org
+- Zapsplat.com
+- Mixkit.co 
